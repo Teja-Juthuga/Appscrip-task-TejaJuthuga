@@ -13,19 +13,18 @@ body{
     .header-md{
         display: none;
     }
-    .alert{
+    .header-alert{
         border-radius: 0;
         margin: 0px;
-        padding: 0px;
-        background-color: black;
         display: flex;
         justify-content: center;
+        background-color: #000;
     }
 
-    .alert img {
+    .header-alert img {
         height: 35px;
     }
-    .alert p {
+    .header-alert p {
         color: #EB4C6B;
         font-weight: 500;
         margin-top: 7px;
@@ -50,7 +49,7 @@ body{
     .header-sm{
         display: none;
     }
-    .alert{
+    .header-alert{
         margin: 0px;
         padding: 0px;
         border-radius: 0;
@@ -64,7 +63,7 @@ body{
     .alerts img {
         height: 35px;
     }
-    .alert p {
+    .header-alert p {
         color: #EB4C6B;
         font-weight: 500;
         margin-top: 7px;

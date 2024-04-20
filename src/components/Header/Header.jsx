@@ -4,9 +4,9 @@ export const Header = () => {
     return (
         <div>
             <div className="header-sm">
-                <div className="alert">
+                <div className="header-alert">
                     <img src="images/alertlogo.png" alt="alertLogo" />
-                    <p> Sale Alert! </p>
+                    <p className="ms-2"> Sale Alert! </p>
                 </div>
                 <div className="main-header">
                     <div>
@@ -14,24 +14,23 @@ export const Header = () => {
                         <i className="fa-solid fa-star-of-life"></i>
                     </div>
                     <div>
-                        <h3> LOGO </h3>
+                        <h3 style={{fontWeight:"700"}}> LOGO </h3>
                     </div>
                     <div>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-bag-shopping"></i>
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                        <i className="fa-regular fa-heart"></i>
+                        <i className="fa-solid fa-bag-shopping"></i>
                     </div>
                 </div>
                 <hr />
                 <div>
                     <p style={{ marginLeft: "25px" }}>
-                        {" "}
                         <span style={{ color: "#BFC8CD" }}> HOME </span> | SHOP{" "}
                     </p>
                 </div>
             </div>
             <div className="header-md">
-                <div className="alert">
+                <div className="header-alert">
                     <div className="alerts">
                         <img src="images/alertlogo.png" alt="alertLogo" />
                         <p> Sale Alert! </p>
@@ -50,7 +49,7 @@ export const Header = () => {
                         <i className="fa-solid fa-star-of-life"></i>
                     </div>
                     <div>
-                        <h2> LOGO </h2>
+                        <h2 style={{fontWeight:"700"}}> LOGO </h2>
                     </div>
                     <div>
                         <i className="fa-solid fa-magnifying-glass"></i>

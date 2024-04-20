@@ -1,0 +1,38 @@
+.common{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .products-sm{
+        display: block;
+    }
+    
+    .product-filters{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .product-cards{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-card{
+        width: 200px;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .products-sm{
+        display: none;
+    }
+    .product-cards{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-card{
+        width: 250px;
+        border-radius: 8px;
+    }
+}
