@@ -14,7 +14,7 @@ export const Header = () => {
                         <i className="fa-solid fa-star-of-life"></i>
                     </div>
                     <div>
-                        <h3 style={{fontWeight:"700"}}> LOGO </h3>
+                        <h3 style={{fontWeight:"700"}}> Shopper. </h3>
                     </div>
                     <div>
                         <i className="fa-solid fa-magnifying-glass"></i>
@@ -49,7 +49,7 @@ export const Header = () => {
                         <i className="fa-solid fa-star-of-life"></i>
                     </div>
                     <div>
-                        <h2 style={{fontWeight:"700"}}> LOGO </h2>
+                        <h2 style={{fontWeight:"700"}}> Shopper. </h2>
                     </div>
                     <div>
                         <i className="fa-solid fa-magnifying-glass"></i>

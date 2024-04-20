@@ -60,11 +60,15 @@ export const Products = () => {
                 </div>
             </div>
             <div className="products-md">
+                <div style={{display:"flex", justifyContent:"space-between"}}>
+                    <p> <b>3425 items </b> &#8594; SHOW FILTERS</p>
+                    <b> RECOMMENDED &#8595; </b>
+                </div>
                 <div className="product-cards">
                     {
                         products.map(product => 
                             <div key={product.id} className="shadow shadow-md p-3 m-2 product-card">
-                                <img src={product.image} height={200} width={200}/>
+                                <img src={product.image} height={200} width={200} alt={"img"+product.id} />
                                 <div style={{display:"flex",justifyContent:"space-evenly", margin:"8px"}}>
                                     <h5>{product.title} </h5>
                                     <i className="fa-regular fa-heart"></i>
